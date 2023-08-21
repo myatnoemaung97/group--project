@@ -1,0 +1,49 @@
+body {
+  background-color: #e8e8e8;
+}
+
+label {
+  font-size: 18px;
+}
+
+.primary {
+  width: 1100px;
+}
+
+.search-button {
+  width: 100px;
+  height: 40px;
+}
+
+.form-select {
+  font-size: 14px;
+}
+
+
+
+.row:hover {
+  .title {
+    text-decoration: underline;
+  }
+}
+
+.inclusions-list, .exclusions-list {
+  list-style-type: none;
+  
+}
+
+.inclusions-list li::before {
+  content: "✓";
+  color: blue;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.exclusions-list li::before {
+  content: "x";
+  color: red;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+

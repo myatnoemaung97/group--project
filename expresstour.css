@@ -1,0 +1,146 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+  font-family: 'Montserrat', sans-serif;
+/*  background-color: #E8E8E8;*/
+}
+
+
+body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .c-item{
+        height: 480px;
+
+      }
+
+      .c-img{
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.7);
+      }
+
+      .reason{
+        background-color: #EBF5FB;
+      }
+
+      .card{
+        background-color: #EBF5FB;
+      }
+
+      .btn-sm{
+        background-color: #EBF5FB;
+      }
+
+      
+
+    .detail .detail-title{
+      padding-top: 30px;
+      display: grid;
+      justify-content: center;
+    }
+
+    .detail .detail-p{
+      display: grid;
+      justify-content: center;
+    }
+
+    .specialplace{
+/*      background-color: #D4EFDF;*/
+      height: 100px;
+    }
+
+    .specialplace a{
+      text-decoration: none;
+      color: black;
+    }
+
+    del{
+      color: steelblue;
+    }
+
+    button{
+      margin-top: 0;
+      margin-left: 30px;
+    }
+
+.company-header {
+            font-family: Montserrat;
+            font-weight: 600;
+            font-size: 55px;
+        }
+
+        .navbar-color {
+            background-color: rgb(9, 20, 60);
+            z-index: 1;
+        }
+
+        .nav-link {
+            font-size: 22px;
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        .company-info {
+            text-align: justify;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 23px;
+            line-height: 1.7;
+            font-weight: lighter;
+        }
+
+        .footer {
+            background-color: rgb(9, 20, 60);
+            color: white;
+            font-family: Montserrat;
+        }
+
+        .social a {
+            cursor: pointer;
+            color: #FFFFFF;
+        }
+
+        .social a:hover {
+            opacity: 0.6;
+        }
+
+        .social {
+            background-color: black;
+            color: white;
+        }
+
+        .copyright {
+            font-family: Montserrat;
+            height: 40px;
+        }
+
+        .offcanvas.show .nav-link{
+            font-size: 18px;
+        }
+        .offcanvas.show .nodrop{
+            margin-left: 12px;
+        }
+        .offcanvas.show #toursMenu{
+            font-size: 18px;
+        }
+        .offcanvas.show #travelinfoMenu{
+            font-size: 18px;
+        }
+        .dropdown-item{
+            font-size: 20px;
+            font-family: 'Work Sans', sans-serif;
+        }
+        .offcanvas.show .dropdown-item{
+            font-size: 15px;
+        }
+        #toursMenu, #travelinfoMenu{
+            font-size: 22px;
+        }
+        .dropdown{
+            margin-top: -6px;
+        }    
